@@ -4,6 +4,7 @@ import graphene
 from graphene_django import DjangoObjectType
 from .models import EmailActivation
 
+# TODO: clean this massy imports
 User = get_user_model()
 
 

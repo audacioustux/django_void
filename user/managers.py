@@ -10,6 +10,8 @@ from django.utils import timezone
 from datetime import timedelta
 from django.core.exceptions import ObjectDoesNotExist
 
+# TODO: clean this massy imports
+
 class EmailActivationManager(models.Manager):
     def create_key(self, instance):  # user instance passed in
         key = generate_activation_key()

@@ -23,6 +23,7 @@ from .managers import (
 
 import time
 
+# TODO: clean this massy imports
 User = settings.AUTH_USER_MODEL
 
 
